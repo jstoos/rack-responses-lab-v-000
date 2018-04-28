@@ -5,7 +5,7 @@ class Application
 
     # if Time.now < 12:00
        resp.write "Good Morning! #{Time.now}"
-       "#{Time.now.parse < 12}"
+       "#{Time.now.parse}"
     # else
     #   resp.write "Good Afternoon!"
     # end
